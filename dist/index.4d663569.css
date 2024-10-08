@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: #e8ddb5;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  padding: .7rem;
+  font-size: 2rem;
+}
+
+.note {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+form {
+  color: #333;
+  background-color: #eb7587;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin: 3rem auto 0;
+  padding: 1rem;
+}
+
+label, input[type="text"] {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  display: block;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: none;
+  padding: .5rem;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.generate-bttn {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  margin: 2rem 0 1.5rem;
+  padding: .3rem .7rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+}
+
+.generate-bttn:hover {
+  color: #333;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.generate-bttn:active {
+  color: #fff;
+  background-color: #333;
+}
+
+.spinner-border {
+  border-width: 8px;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.hide {
+  display: none !important;
+}
+
+.recipe {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 3rem auto 0;
+  padding: 3rem;
+}
+
+.recipe-name {
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+}
+
+.ingredient-title {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.ingredient-list {
+  list-style-type: none;
+}
+
+.ingredient {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.direction-title {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.step-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.step p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+b {
+  font-size: 1.35rem;
+}
+/*# sourceMappingURL=index.4d663569.css.map */

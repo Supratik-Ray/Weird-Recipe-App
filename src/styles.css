@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: monospace;
+  background-color: #e8ddb5;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+  padding: 0.7rem;
+}
+
+.note {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-style: italic;
+  padding: 1rem;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+.green {
+  color: green;
+  font-weight: bold;
+}
+form {
+  background-color: #eb7587;
+  color: #333333;
+  padding: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+label,
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+.generate-bttn {
+  background-color: #333333;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  margin: 2rem 0 1.5rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.generate-bttn:hover {
+  background-color: #fff;
+  color: #333333;
+  cursor: pointer;
+}
+
+.generate-bttn:active {
+  background-color: #333333;
+  color: #fff;
+}
+
+.spinner-border {
+  height: 4rem;
+  width: 4rem;
+  border-width: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.hide {
+  display: none !important;
+}
+
+.recipe {
+  padding: 3rem;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.recipe-name {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.ingredient-title {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.ingredient-list {
+  list-style-type: none;
+}
+
+.ingredient {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.direction-title {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.step p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+b {
+  font-size: 1.35rem;
+}
